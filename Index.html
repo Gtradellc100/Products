@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Product Catalog</title>
+    <style>
+        body { font-family: system-ui, sans-serif; margin: 0; padding: 20px; background-color: #f9f9f9; color: #333; }
+        header { text-align: center; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); overflow: hidden; text-align: center; border: 1px solid #eee; }
+        .card img { width: 100%; height: 250px; object-fit: cover; }
+        .info { padding: 20px; }
+        .price { font-size: 1.25rem; font-weight: bold; color: #007600; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Gauri Trade Stores</h1>
+        <p>Explore our premium product line up completely free</p>
+    </header>
+
+    <div class="grid">
+        <!-- Product 1 Box -->
+        <div class="card">
+            <!-- Ensure src path exactly matches your uploaded image file name -->
+            <img src="images/product1.jpg" alt="Premium Gadget">
+            <div class="info">
+                <h3>Premium Gadget</h3>
+                <p>High-quality engineering designed for daily productivity optimization.</p>
+                <div class="price">$TBD</div>
+            </div>
+        </div>
+
+        <!-- Product 2 Box -->
+        <div class="card">
+            <img src="images/product2.jpg" alt="Minimalist Backpack">
+            <div class="info">
+                <h3>Minimalist Backpack</h3>
+                <p>Weatherproof exterior construction with space for travel computing rigs.</p>
+                <div class="price">$89.99</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
 
